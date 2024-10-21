@@ -1,0 +1,13 @@
+num_1 =(27.5 + 2)
+num_sub = (27.5 - 2)
+num_multi =( 27.5 * 2)
+num_div = (27.5 / 2)
+num_fol = (27.5 // 2)
+num_exp = (27.5 **2)
+
+print (num_1)
+print (num_sub)
+print (num_multi)
+print (num_div)
+print (num_fol)
+print (num_exp)
