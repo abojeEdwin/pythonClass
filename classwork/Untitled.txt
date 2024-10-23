@@ -1,0 +1,2 @@
+print(for(num = 1, range(100), num + 1))
+

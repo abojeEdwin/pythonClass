@@ -1,1 +1,0 @@
-print("welcome to your first day")
