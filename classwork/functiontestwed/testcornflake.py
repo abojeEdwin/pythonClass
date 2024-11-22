@@ -39,7 +39,8 @@ class TestFutureInvestmentAmount(unittest.TestCase):
 		cornflake.future_investment_amount(1,2,3)
 		
 	def test_that_function_corn_flakes_holds_three_arguments(self):
-		self.assertEqual(missingargument,cornflake.future_investment_amount,1,2)
+		self.assertEqual("PositionalError",cornflake.future_investment_amount("PositionalError"))
+	
 
 
 

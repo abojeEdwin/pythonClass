@@ -16,9 +16,11 @@ def divide_or_square(number):
 
 
 
-def future_investment_amount(number1,number2,number3):
+def future_investment_amount(x,y,z):
 	return(1,2,3)
-		
+	if (x,y,z) == (x,y):
+		return "PositionalError"
+	 	
 	
 
 
