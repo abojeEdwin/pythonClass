@@ -1,6 +1,6 @@
 import unittest
 import Sumfunction
-import numbers
+
 
 class TestEvenSumFunction(unittest.TestCase):
 	def test_that_get_sum_function_exist(self):
