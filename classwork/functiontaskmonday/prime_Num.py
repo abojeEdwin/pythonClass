@@ -18,7 +18,7 @@ def prime_num(number):
 
 
 
-print(prime_num([5,9,7,10,11,3,2,12]))
+print(prime_num([5,9,7,10,11,3,2,12,29,23]))
 
 
 
