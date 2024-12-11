@@ -4,4 +4,4 @@ def ispalindrome_List(words):
 
 
 
-print(ispalindrome_List(['madam','apple','racecar']))
+print(ispalindrome_List(['madam','apple','racecar','']))

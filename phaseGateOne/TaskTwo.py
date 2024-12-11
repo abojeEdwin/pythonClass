@@ -1,7 +1,4 @@
-userInput = input("Enter an inter between 0 and 1000 : ")
-indexcounter= 0
-for index in userInput:
-	indexcounter + 1
+number = input("Enter an integer between 0 and 1000 :")
 
-print(indexcounter)
-			
+digit_sum = sum(int(digit)for digit in number)
+print(digit_sum)

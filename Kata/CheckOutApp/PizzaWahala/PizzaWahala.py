@@ -11,11 +11,11 @@ def pizza_wahala():
 
     1. Sapa Size                 4                     2,000
 
-    2. Small Money               6                     2,400
+    2. Small Money           6                     2,400
 
     3. Big Boys                  8                     3,000
 
-    4. Odogwu                    12                    5,200
+    4. Odogwu                 12                    5,200
 ..................................................................................................................................................    
     0: Exit
 
@@ -113,5 +113,4 @@ def pizza_wahala():
         except ValueError:
             print("Invalid input, please enter a valid number")
 
-# Call the function to run the program
 pizza_wahala()

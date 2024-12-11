@@ -1,5 +1,7 @@
-a = 99
-b = 25
+import random
+
+a = random.randrange(10)
+b = random.randrange(10)
 
 sum = a+b
 
