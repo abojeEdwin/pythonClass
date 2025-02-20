@@ -8,9 +8,10 @@ class PoliticalZones(Enum):
         SOUTH_EAST : str = "Abia", "Anambra", "Ebonyi", "Enugu", "Imo",
         SOUTH_WEST : str = "Ekiti", "Lagos", "Osun", "Ondo", "Ogun", "Oyo",
         SOUTH_SOUTH : str = 'Akwa-Ibom', 'Bayelsa', 'Cross-River', 'Delta', 'Edo', 'Rivers',
+
         state = []
-        def __init__(self,state):
-            self.__state = state
+        #def __init__(self,stat):
+         #   self.__state = state
 
         def getPoliticalZone(self):
             return self.state

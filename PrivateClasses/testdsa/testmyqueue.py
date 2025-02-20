@@ -30,19 +30,17 @@ class MyTestCase(unittest.TestCase):
         self.queue.remove()
         self.assertEqual(2,self.queue.getSize())
 
-    def test_that_queue_is_full(self):
+    def test_that_queue_handles_exception_when_full(self):
         self.queue.enterQueue(15)
         self.queue.enterQueue(21)
         self.queue.enterQueue(1)
         self.queue.enterQueue(15)
         self.queue.enterQueue(21)
-        self.queue.enterQueue(1)
-        with self.assertRaises(IndexError):
-            (self.queue.isFull())
+        self.assertRaises(IndexError,self.queue.enterQueue,12)
 
 
     def test_that_queue_can_only_remove_if_empty(self):
-       self.queue.remove()
+       self.assertRaises(IndexError,self.queue.remove)
 
 
 

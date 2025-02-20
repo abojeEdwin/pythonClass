@@ -6,8 +6,8 @@ class MyArray:
 
     def add(self, value):
         if self.isFull():
-            raise IndexError ("Array is full")
-        self.__array += value
+            raise IndexError("Array is full")
+        self.__array += [value]
         self.__size += 1
 
     def getSize(self):

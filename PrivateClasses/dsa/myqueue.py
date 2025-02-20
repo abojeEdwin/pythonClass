@@ -26,9 +26,9 @@ class MyQueue:
 
     def remove(self):
         if self.isEmpty():
-            self.__head = self.__head % self.__capacity
-            self.__size -= 1
-        raise ValueError("Queue is empty")
+            raise IndexError("Queue is empty")
+        self.__head = self.__head % self.__capacity
+        self.__size -= 1
 
     def isFull(self):
         return self.__size == self.__capacity
