@@ -38,4 +38,3 @@ class MyAccount:
     def get_account_number(self):
         return self.__account_number
 
-
