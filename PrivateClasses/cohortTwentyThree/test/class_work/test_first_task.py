@@ -1,5 +1,5 @@
 import unittest
-from cohortTwentyThree.test.class_work import first_task
+
 from cohortTwentyThree.test.class_work.upper_case import mixed_case
 from cohortTwentyThree.test.class_work.remove_special_characters import remove_special_characters
 from cohortTwentyThree.test.class_work.secondTask import swap_letters
