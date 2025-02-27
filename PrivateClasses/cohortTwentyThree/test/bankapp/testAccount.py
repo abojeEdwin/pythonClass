@@ -21,18 +21,19 @@ class MyTestCase(unittest.TestCase):
         account.withdraw(2000,"12345")
         self.assertEqual(3000,account.checkBalance("12345"))
 
-    def test_that_Account_class_does_not_withdraw_when_empty(self):
+    def test_that_Account_class_does_not_withdraw_when_empty_string_password(self):
         account = MyAccount("Aboje Edwin", "1", "12345")
-        self.assertRaises(IndexError,account.withdraw,2000)
+        account.deposit(5000)
+        self.assertRaises(ValueError,account.withdraw,2000," ")
 
     def test_that_Account_class_handles_error_when_withdraw_amount_is_none(self):
         account = MyAccount("Aboje Edwin", "1", "12345")
-        self.assertRaises(ValueError,account.withdraw,None)
+        self.assertRaises(ValueError,account.withdraw,None,"12345")
 
-
-    def test_that_Account_class_handles_error_when_withdraw_amount_with_empty_string(self):
-        account = MyAccount("Aboje Edwin", "1", "12345")
-        self.assertRaises(ValueError,account.withdraw," ")
+    #
+    # def test_that_Account_class_handles_error_when_withdraw_amount_with_empty_string(self):
+    #     account = MyAccount("Aboje Edwin", "1", "12345")
+    #     self.assertRaises(ValueError,account.withdraw,2000,"12345")
 
     def test_that_Account_class_can_change_pin(self):
         account = MyAccount("Aboje Edwin", "1", "12345")

@@ -15,8 +15,8 @@ class MyAccount:
         return self.__balance
 
     def withdraw(self, amount,password):
-        if amount is " ":
-            raise ValueError("Amount cannot be empty")
+        if password is " ":
+            raise ValueError("Password is empty")
         if amount is None:
             raise ValueError("Amount cannot be None")
         if self.__balance <= amount:
