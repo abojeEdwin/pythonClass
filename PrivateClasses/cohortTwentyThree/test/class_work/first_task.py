@@ -9,5 +9,3 @@ def first_task(word):
 
 
 
-
-
