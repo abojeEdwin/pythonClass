@@ -10,3 +10,4 @@ raji:b'$2b$12$FY5hlxh3KT.ctXndPbij7OfIqHs6rjvKMxQ8EGLgq/Thn34k5l5Aa'
 lucky:b'$2b$12$1J6cdG.EA8TzLcc94Co0D.Acjj4wiwAcrDrFkITJl9fPs71yTgXpW'
 francis:$2b$12$l923tdSaNnMquQDHOqhPiOZssw4Mh83GDjEvdlIOuk4x.pBGZohX2
 abojeedwin@gmail.com:$2b$12$bUcAiCnRu9CnzDQzIUg7GOtEzkGkBlGu2dGooKCj0iPSStKmly9Pa
+jagaja@gmail.com:$2b$12$0Aep05roEpMGtWCHrsPMS.pErddp6uOnzroQGWmx4PbfLj3oz0KIq
